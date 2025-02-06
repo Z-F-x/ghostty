@@ -1,13 +1,24 @@
+theme = dark:zfx-charcoal,light:zfx-chalk
+# all black: zfx-pitch-black | all white:
+
+
 cursor-style = block
+cursor-style-blink = false
+
+unfocused-split-fill = #FFFFFF
 shell-integration-features = no-cursor
-background-opacity = 0
+background-opacity = 0.96
+font-family-bold = Operator Mono Medium
+font-family-italic = SourceCodeVF Italics
+font-family-bold-italic = SourceCodeVF Bold Italic
 font-size= 18
-cursor-style = block
 keybind = ctrl+a=ignore
 window-decoration = false
+gtk-titlebar = false
+
 window-padding-balance = true
-window-height = 34
-window-width = 134
+window-height = 33
+window-width = 148
 window-save-state = always
 window-padding-x = 2,4
 window-padding-y = 2,4
@@ -16,6 +27,7 @@ bold-is-bright = true
 quick-terminal-position = center
 clipboard-write = allow
 clipboard-read = allow
+
 
 # This is the configuration file for Ghostty.
 #
@@ -58,3 +70,4 @@ clipboard-read = allow
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
+
